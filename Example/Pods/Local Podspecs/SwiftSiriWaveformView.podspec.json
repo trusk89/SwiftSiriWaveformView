@@ -1,25 +1,21 @@
 {
   "name": "SwiftSiriWaveformView",
-  "version": "0.1.0",
-  "summary": "A short description of SwiftSiriWaveformView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftSiriWaveformView",
+  "version": "2.2.0",
+  "summary": "UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8",
+  "description": "SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8. Version 2.2.0 is compatible with Swift 5.0+ and XCode 11.0+\n\nIt is an interface-incompatible Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu).",
+  "homepage": "https://github.com/alankarmisra/SwiftSiriWaveformView",
   "license": "MIT",
   "authors": {
     "Alankar Misra": "alankarmisra@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SwiftSiriWaveformView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/alankarmisra/SwiftSiriWaveformView.git",
+    "tag": "2.2.0"
   },
+  "social_media_url": "https://twitter.com/alankarmisra_",
   "platforms": {
-    "ios": "8.0"
+    "ios": "8.3"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "SwiftSiriWaveformView": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*"
 }

@@ -1,14 +1,16 @@
 PODS:
-  - SwiftSiriWaveformView (0.1.0)
+  - SwiftSiriWaveformView (2.2.0)
 
 DEPENDENCIES:
   - SwiftSiriWaveformView (from `../`)
 
 EXTERNAL SOURCES:
   SwiftSiriWaveformView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftSiriWaveformView: 972a80c8e8f0284fcc8e36be9fced175c478cfdb
+  SwiftSiriWaveformView: 103793a8a6f7c130b3dfcf0b202fb5204361154a
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 3f78bff4054573773476037c70cdef1da0230ec0
+
+COCOAPODS: 1.8.4
