@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSiriWaveformView" 
-  s.version          = "2.2.0"
+  s.version          = "2.3.0"
   s.summary          = "UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8"
   s.description      = <<-DESC
-                       SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8. Version 2.2.0 is compatible with Swift 5.0+ and XCode 11.0+
+                       SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8. Version 2.3.0 is compatible with Swift 5.0+ and XCode 11.0+
 
                        It is an interface-incompatible Swift adaptation of the amazing [SCSiriWaveformView](https://github.com/stefanceriu/SCSiriWaveformView) by [Stefan Ceriu](https://github.com/stefanceriu). 
 
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.3'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Sources/SwiftSiriWaveformView/**/*'
 end
